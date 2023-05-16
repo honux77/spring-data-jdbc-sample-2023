@@ -1,0 +1,1 @@
+insert into `user` (name, created_date) values ('Hoyoung Jung', current_timestamp);

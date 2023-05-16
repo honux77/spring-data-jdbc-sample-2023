@@ -19,7 +19,18 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-mustache'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'com.h2database:h2'
+
+	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+	annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+	testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+
+
+
+
 }
 
 tasks.named('test') {

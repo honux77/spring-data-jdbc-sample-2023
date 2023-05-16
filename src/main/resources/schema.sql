@@ -1,0 +1,1 @@
+CREATE TABLE `user` (id bigint primary key auto_increment, name varchar(64), created_date datetime);
